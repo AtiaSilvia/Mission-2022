@@ -9,7 +9,7 @@ p{
     text-align: justify;
 }
 h1{
-    font-family: 'Signika', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 40px;
     padding-top: 7px;
     line-height: 12px;
@@ -21,10 +21,11 @@ h1{
 .half-width
 {
     width: 50%;
-    padding: 35px;
+    padding: 20px;
 }
 .half-width img{
-    width: 80%;
+    width: 60%;
+    
 }
 .flexible-container{
     display: flex;
@@ -49,11 +50,11 @@ h1{
 }
 .top-banner{
     margin-bottom: 80px;
+    padding-left: 110px;
 }
 .Mission-area{    
     margin: auto;
-    width: 85%;
-    
+    width: 85%;    
 }
 .Mission-area img{
     width: 40%;
@@ -61,7 +62,7 @@ h1{
 .Mission-area h2{
     font-family: 'Poppins', sans-serif;
     padding-left: 400px;  
-    font-size: 30px;
+    font-size: 35px;
 }
 #box-color{
     background-color: rgb(202, 234, 245);
@@ -81,19 +82,21 @@ h1{
     margin: 10px ;
 }
 .font-size{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .half-width-third{
    
     width: 40%;
-    padding: 25px;   
+    padding-left: 70px;
+
+     
 }
 .half-width-third img{
-    border-radius: 50px;
-    width: 80%;
-    padding-left: 90px;
-   
+    width: 80%; 
+    border-radius: 50px; 
+    padding-left: 20px;
+    
 }
 .Develop-area h4{
     font-family: 'Poppins', sans-serif;     
@@ -106,12 +109,17 @@ h1{
     padding-top: 60px;
     background-image: url(images/shapes/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
+    padding-left: 0px;
 }
 .know-area{
     margin: auto;
     width: 100%;
     padding-top: 60px;
+    background-image: url(images/shapes/dream-bg2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
 }
 .know-area h4{
     font-family: 'Poppins', sans-serif;     
@@ -119,10 +127,66 @@ h1{
     line-height: 12px;
 }
 .half-width-fourth img{
-    width: 80%;
-    padding-left: 90px;  
+    width: 80%; 
+    border-radius: 50px;  
 }
 .half-width-fourth{
-    width: 40%;
-    padding: 25px; 
+    width: 40%;     
+    padding-left: 110px;
 }
+.Photo-gallery h2{
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 40%;  
+    font-size: 30px;
+}
+.Photo-gallery img{
+    
+    height:300px;
+    width:auto;
+    max-width:500px;
+    margin: 10px;
+    padding-left: 8px;   
+}
+.photo{
+   width: 120px 120px;
+}
+.photo-second{
+    padding-bottom: 200px;
+
+}
+.Photo-gallery h2{
+    font-size: 40px;
+}
+#coral{
+    color: rgb(224, 113, 73);
+}
+footer {
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black ;
+    color: white;
+    text-align: center;
+    line-height: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+footer a{
+    text-decoration: none;
+    color: rgb(219, 235, 235);
+    padding-top: 20px;
+
+}
+
+
+
