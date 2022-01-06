@@ -22,13 +22,11 @@ h1{
 {
     width: 50%;
     padding: 35px;
-    
-
 }
 .half-width img{
     width: 80%;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .link-button{
@@ -49,9 +47,82 @@ section{
 #color-coral{
     color: rgb(224, 113, 73);
 }
-h2{
-    font-family: 'Poppins', sans-serif;
-    padding-left: 450px;
+.top-banner{
+    margin-bottom: 80px;
+}
+.Mission-area{    
+    margin: auto;
+    width: 85%;
     
+}
+.Mission-area img{
+    width: 40%;
+}
+.Mission-area h2{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 400px;  
     font-size: 30px;
+}
+#box-color{
+    background-color: rgb(202, 234, 245);
+    border-radius: 50px;
+    margin: 10px ;
+    
+}
+#box-color2{
+    background-color: rgb(241, 211, 215);
+    border-radius: 50px;
+    margin: 10px ;
+    
+}
+#box-color3{
+    background-color: rgb(206, 222, 235);
+    border-radius: 50px;
+    margin: 10px ;
+}
+.font-size{
+    font-size: 10px;
+}
+
+.half-width-third{
+   
+    width: 40%;
+    padding: 25px;   
+}
+.half-width-third img{
+    border-radius: 50px;
+    width: 80%;
+    padding-left: 90px;
+   
+}
+.Develop-area h4{
+    font-family: 'Poppins', sans-serif;     
+    font-size: 25px;
+    line-height: 12px;
+}
+.Develop-area{
+    margin: auto;
+    width: 100%;
+    padding-top: 60px;
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.know-area{
+    margin: auto;
+    width: 100%;
+    padding-top: 60px;
+}
+.know-area h4{
+    font-family: 'Poppins', sans-serif;     
+    font-size: 25px;
+    line-height: 12px;
+}
+.half-width-fourth img{
+    width: 80%;
+    padding-left: 90px;  
+}
+.half-width-fourth{
+    width: 40%;
+    padding: 25px; 
 }
